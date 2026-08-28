@@ -1,0 +1,29 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202606",
+      "supply_amount": 26400,
+      "vat_amount": 2640,
+      "due_total_amount": 30020,
+      "overdue_total_amount": 30620,
+      "late_fee": 600,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "power_fund_raw": 980,
+      "other_fee": null,
+      "site_hint_text": "다남프라자 1동 B101호",
+      "notes": "당월부과액계 30,020, 비과세합계 980(전력기금)로 공급가액+부가세+전력기금=29,040+980=30,020 일치 확인. 여러 구역(관리비명세서/납입통지서/영수증) 값 상호 일치.",
+      "field_confidence": {
+        "supply_amount": 0.95,
+        "vat_amount": 0.95,
+        "due_total_amount": 0.98,
+        "late_fee": 0.95,
+        "power_fund_raw": 0.9,
+        "overdue_total_amount": 0.95,
+        "unpaid_amount": 0.8,
+        "unpaid_late_fee": 0.8
+      }
+    }
+  ]
+}

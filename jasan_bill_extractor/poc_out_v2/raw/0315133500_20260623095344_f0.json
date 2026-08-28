@@ -1,0 +1,29 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": null,
+      "vat_amount": null,
+      "current_period_charge": 59800,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "due_total_amount": 59800,
+      "overdue_total_amount": null,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "진건현대 105동 2호, 한국통신",
+      "notes": "전기 사용량 0KWh로 인쇄되어 있고 전기료 관련 항목 공란. 손글씨로 여러 숫자(64kw, 160, 75, 299kw 등)가 여백에 메모되어 있으나 명확한 항목 대응이 불가하여 반영하지 않음. 당월관리비 합계 59,800원, 전월관리비 70,200원, 증감액 -10,400원으로 명세서에 표기됨. 미납액/미납연체료는 공란으로 0으로 추정되나 명확한 표기가 없어 null 처리.",
+      "field_confidence": {
+        "billing_period": 0.8,
+        "current_period_charge": 0.9,
+        "due_total_amount": 0.95,
+        "unpaid_amount": 0.3,
+        "unpaid_late_fee": 0.3
+      }
+    }
+  ]
+}

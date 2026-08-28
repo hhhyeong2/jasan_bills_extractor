@@ -1,0 +1,30 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": 76750,
+      "vat_amount": null,
+      "due_total_amount": 76750,
+      "current_period_charge": 76750,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "late_fee": null,
+      "other_fee": null,
+      "overdue_total_amount": null,
+      "power_fund_raw": null,
+      "billing_period": "202605",
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "한화꿈에그린아파트",
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "due_total_amount": 0.95,
+        "current_period_charge": 0.9,
+        "unpaid_amount": 0.8,
+        "unpaid_late_fee": 0.8,
+        "billing_period": 0.9
+      },
+      "notes": "전기에너지 항목만 있는 단일 세대 관리비고지서. 당월부과액=전기요금 76,750원, 할인/미납/연체 모두 0으로 표기됨."
+    }
+  ]
+}

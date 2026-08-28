@@ -1,0 +1,25 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 51480,
+      "vat_amount": null,
+      "due_total_amount": 100710,
+      "overdue_total_amount": null,
+      "unpaid_amount": 49230,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "site_hint_text": "덕소한솔강변",
+      "notes": "관리비명세서 상단 납부하실 금액(100,710원)과 관리비 납입의뢰서/납입영수증의 납기내금액이 100,710원으로 일치함. 전기에너지(세대전기료) 51,480원은 당월부과액과 일치. 부가세 항목은 표기 없음(관리비 고지서로 부가세 별도 명시 없음). 미납액 49,230원은 참고용으로 기재됨(전월 미납분으로 추정, 당월 부과액과 별개).",
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "due_total_amount": 0.95,
+        "unpaid_amount": 0.85,
+        "vat_amount": 0.3
+      }
+    }
+  ]
+}

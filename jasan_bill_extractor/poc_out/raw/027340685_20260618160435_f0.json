@@ -1,0 +1,28 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 68545,
+      "vat_amount": 6855,
+      "due_total_amount": 77430,
+      "overdue_total_amount": 78980,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": 1550,
+      "other_fee": 2030,
+      "power_fund_raw": 2030,
+      "site_hint_text": "세종로대우빌딩 F동 109호",
+      "notes": "공급가액/부가세/과세합/비과세합 등 여러 구역 값이 서로 일치하여 신뢰도 높음. 비과세항목(2030)은 세대전력기금으로 표기됨.",
+      "field_confidence": {
+        "supply_amount": 0.95,
+        "vat_amount": 0.95,
+        "due_total_amount": 0.95,
+        "overdue_total_amount": 0.9,
+        "late_fee": 0.9,
+        "other_fee": 0.85,
+        "power_fund_raw": 0.85
+      }
+    }
+  ]
+}

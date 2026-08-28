@@ -1,0 +1,26 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202606",
+      "supply_amount": 6620,
+      "vat_amount": null,
+      "due_total_amount": 51060,
+      "overdue_total_amount": 52080,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": 1020,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "site_hint_text": "은빛마을6단지 부영1상가",
+      "notes": "공동전기료 6,620원은 명세서 내 개별 항목이며, 전체 관리비 당월부과액(납기내금액)은 51,060원. 전기 사용량/지침 등 세부 항목은 공란으로 인쇄되어 있어 확인 불가. 부가세 별도 표기 없음.",
+      "field_confidence": {
+        "supply_amount": 0.6,
+        "vat_amount": 0.3,
+        "due_total_amount": 0.95,
+        "overdue_total_amount": 0.9,
+        "late_fee": 0.9
+      }
+    }
+  ]
+}

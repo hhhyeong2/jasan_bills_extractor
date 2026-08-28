@@ -1,0 +1,32 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202606",
+      "supply_amount": 14610,
+      "vat_amount": 1460,
+      "current_period_charge": 16070,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "due_total_amount": 16070,
+      "late_fee": 0,
+      "overdue_total_amount": 16070,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "문산중앙상가 2동 902호 KT 16강북네트",
+      "notes": "전기 사용량 79kWh(전월1694-당월1773), 사용요금 10,070원, 기본전기료 4,540원으로 공급가액 14,610원 구성. 부가세 항목 포함된 관리비고지서.",
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "vat_amount": 0.9,
+        "current_period_charge": 0.95,
+        "due_total_amount": 0.95,
+        "unpaid_amount": 0.7,
+        "unpaid_late_fee": 0.7,
+        "late_fee": 0.6,
+        "overdue_total_amount": 0.9
+      }
+    }
+  ]
+}

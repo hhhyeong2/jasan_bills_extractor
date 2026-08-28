@@ -1,0 +1,21 @@
+{
+  "documents": [
+    {
+      "doc_type": "기타",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 28174,
+      "current_period_charge": 28174,
+      "billing_period": "202605",
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "별빛마을8단지 상가번영회",
+      "notes": "전기요금 청구 공문 형식으로, 세금계산서/관리비고지서 표준 서식이 아님. 청구금액 28,174원(12,613+3,481+12,080)을 당월부과액 성격으로 기록. 미납액/연체료 항목 없음.",
+      "field_confidence": {
+        "due_total_amount": 0.8,
+        "current_period_charge": 0.8,
+        "billing_period": 0.7
+      }
+    }
+  ]
+}

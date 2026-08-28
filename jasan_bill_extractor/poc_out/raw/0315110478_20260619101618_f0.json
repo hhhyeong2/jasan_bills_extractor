@@ -1,0 +1,24 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 75600,
+      "vat_amount": null,
+      "due_total_amount": 75600,
+      "overdue_total_amount": null,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "power_fund_raw": null,
+      "other_fee": null,
+      "site_hint_text": "남양주 호평6단지 아파트 (LH)",
+      "notes": "전기요금 청구서로 부가세 별도 표기 없음. 청구금액(75,600원)을 납기내금액으로 채택.",
+      "field_confidence": {
+        "supply_amount": 0.8,
+        "due_total_amount": 0.9,
+        "billing_period": 0.9
+      }
+    }
+  ]
+}

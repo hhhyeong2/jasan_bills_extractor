@@ -1,0 +1,28 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202606",
+      "supply_amount": 10200,
+      "vat_amount": 1020,
+      "due_total_amount": 11500,
+      "overdue_total_amount": 12080,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": 580,
+      "other_fee": 280,
+      "power_fund_raw": 275,
+      "site_hint_text": "생연프라자",
+      "notes": "공급가액/세액/기타요금(전기세합계 280 중 전력기금 275 포함) 여러 구역에서 일치 확인됨. 당월부과액계=납기내금액=11,500으로 일치.",
+      "field_confidence": {
+        "supply_amount": 0.95,
+        "vat_amount": 0.95,
+        "due_total_amount": 0.98,
+        "overdue_total_amount": 0.95,
+        "late_fee": 0.95,
+        "other_fee": 0.85,
+        "power_fund_raw": 0.8
+      }
+    }
+  ]
+}

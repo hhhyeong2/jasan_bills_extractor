@@ -1,0 +1,25 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 75600,
+      "vat_amount": null,
+      "due_total_amount": 75600,
+      "overdue_total_amount": null,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "power_fund_raw": null,
+      "other_fee": null,
+      "site_hint_text": "남양주호평6단지",
+      "notes": "세대전기료 항목만 명확히 확인됨(75,600원), 관리비 총액과 세대전기료가 동일하게 75,600원으로 표기되어 있어 전기료만 부과된 것으로 보임. 부가세, 전력기금 등 세부 항목은 별도 표기 없음.",
+      "field_confidence": {
+        "supply_amount": 0.85,
+        "vat_amount": 0.3,
+        "due_total_amount": 0.9,
+        "billing_period": 0.85
+      }
+    }
+  ]
+}

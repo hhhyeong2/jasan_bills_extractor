@@ -1,0 +1,54 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 13280,
+      "vat_amount": 1330,
+      "current_period_charge": 14610,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "due_total_amount": 14610,
+      "late_fee": 0,
+      "overdue_total_amount": 14610,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "문산중앙상가 2동 902호",
+      "region_readings": [
+        {
+          "region": "관리비 명세서",
+          "current_period_charge": 14610,
+          "due_total_amount": 14610,
+          "overdue_total_amount": 14610
+        },
+        {
+          "region": "관리비 납입통지서",
+          "current_period_charge": 14610,
+          "due_total_amount": 14610,
+          "overdue_total_amount": 14610
+        },
+        {
+          "region": "관리비 수납의뢰서",
+          "due_total_amount": 14610,
+          "overdue_total_amount": 14610
+        },
+        {
+          "region": "관리비 납입영수증",
+          "current_period_charge": 14610,
+          "due_total_amount": 14610,
+          "overdue_total_amount": 14610
+        }
+      ],
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "vat_amount": 0.9,
+        "current_period_charge": 0.95,
+        "due_total_amount": 0.95,
+        "overdue_total_amount": 0.9
+      },
+      "notes": "전기 사용기간 정보 없음. 기본전기료 4,540, 전기료 8,740이 세부항목이며 공급가액 13,280(=4540+8740, 근사)과 부가세 1330 합계로 당월부과액 14,610 구성."
+    }
+  ]
+}

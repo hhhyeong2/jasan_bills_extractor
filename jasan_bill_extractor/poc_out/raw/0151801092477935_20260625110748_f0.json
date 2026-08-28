@@ -1,0 +1,25 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202606",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 10270972,
+      "unpaid_amount": 4577529,
+      "unpaid_late_fee": 228876,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "overdue_total_amount": null,
+      "site_hint_text": "백마5단지 쌍용 한성상가 (합계)",
+      "notes": "이 문서는 다세대 상가 전체 합계표 형태입니다. 개별 호수(101~301 등) 49건이 한 표에 정리되어 있으며, 각 호수별 금액이 상이하여 합계 행(686.0, 전기요금 소계 3,113,305, 수도요금 소계 288,460, 일반관리비 550,172+1,400,126+112,504, 당월합계 5,464,567, 미납금 4,577,529, 연체금 228,876, 청구액 10,270,972)만 대표로 기록함. 개별 세대별 상세 금액은 문서 내 표를 참조해야 하며 이 레코드에는 합계만 반영.",
+      "field_confidence": {
+        "due_total_amount": 0.9,
+        "unpaid_amount": 0.85,
+        "unpaid_late_fee": 0.85,
+        "supply_amount": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": 81220,
+      "vat_amount": null,
+      "due_total_amount": 131440,
+      "overdue_total_amount": null,
+      "current_period_charge": 81220,
+      "unpaid_amount": 50220,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "billing_period": "202605",
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "래미안남가좌2차",
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "current_period_charge": 0.9,
+        "due_total_amount": 0.95,
+        "unpaid_amount": 0.9,
+        "billing_period": 0.9
+      },
+      "notes": "당월부과액(81,220) + 미납액(50,220) = 납기내금액(131,440). 미납연체료 항목은 값이 명확히 표기되지 않아 null로 처리. 부가세/공급가액 구분 없는 관리비고지서 형식."
+    }
+  ]
+}

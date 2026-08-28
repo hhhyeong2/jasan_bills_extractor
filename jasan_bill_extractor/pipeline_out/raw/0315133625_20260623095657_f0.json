@@ -1,0 +1,30 @@
+{
+  "documents": [
+    {
+      "doc_type": "기타",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 51000,
+      "current_period_charge": 51000,
+      "billing_period": "202606",
+      "usage_start_date": "2026-03-23",
+      "usage_end_date": "2026-04-22",
+      "site_hint_text": "퇴계원 강남2차아파트 관리사무소",
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "region_readings": [],
+      "notes": "전기사용료 청구서(관리사무소 발행, KT 앞). 세금계산서 형식이 아니며 공급가액/세액 구분 없이 '당월정구금액'만 표기됨. 이를 current_period_charge 및 due_total_amount로 처리함.",
+      "field_confidence": {
+        "due_total_amount": 0.9,
+        "current_period_charge": 0.9,
+        "usage_start_date": 0.9,
+        "usage_end_date": 0.9,
+        "billing_period": 0.6
+      }
+    }
+  ]
+}

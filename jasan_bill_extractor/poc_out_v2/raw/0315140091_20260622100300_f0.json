@@ -1,0 +1,31 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 75750,
+      "overdue_total_amount": null,
+      "current_period_charge": 75750,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "billing_period": "202605",
+      "usage_start_date": "2026-05-08",
+      "usage_end_date": "2026-06-07",
+      "site_hint_text": "평내중흥S-클래스3단지",
+      "field_confidence": {
+        "due_total_amount": 0.95,
+        "current_period_charge": 0.9,
+        "unpaid_amount": 0.8,
+        "unpaid_late_fee": 0.8,
+        "billing_period": 0.9,
+        "usage_start_date": 0.7,
+        "usage_end_date": 0.7
+      },
+      "notes": "전기사용요금 75,750원이 당월관리비 합계와 동일하며 다른 관리비 세부항목은 0으로 인쇄됨. 전기 사용기간은 검침기간(2026.5.8~2026.6.7)으로 추정."
+    }
+  ]
+}

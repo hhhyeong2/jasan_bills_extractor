@@ -1,0 +1,26 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 75750,
+      "vat_amount": null,
+      "due_total_amount": 75750,
+      "overdue_total_amount": null,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "site_hint_text": "평내중흥S-클래스3단지",
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "due_total_amount": 0.95,
+        "billing_period": 0.9,
+        "unpaid_amount": 0.7,
+        "unpaid_late_fee": 0.7
+      },
+      "notes": "전기 사용요금(303kWh)이 당월관리비 합계와 동일하게 75,750원으로 표기됨. 부가세 항목 없음. 미납액/미납연체료 칸은 빈칸으로 0으로 추정."
+    }
+  ]
+}

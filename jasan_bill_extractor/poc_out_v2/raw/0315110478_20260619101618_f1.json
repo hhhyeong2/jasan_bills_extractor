@@ -1,0 +1,28 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 75600,
+      "overdue_total_amount": null,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "current_period_charge": 75600,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "남양주호평6단지",
+      "notes": "세대전기료 항목만 명확히 보이며 세부 관리비 항목표는 흑백 반전 스캔으로 판독 불가. 당월고지금액 합계 75,600원과 납기내금액 75,600원이 일치함(미납액 없음).",
+      "field_confidence": {
+        "due_total_amount": 0.9,
+        "current_period_charge": 0.85,
+        "supply_amount": 0.0,
+        "vat_amount": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 13280,
+      "vat_amount": 1330,
+      "current_period_charge": 14610,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "due_total_amount": 14610,
+      "overdue_total_amount": 14610,
+      "late_fee": 0,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "문산중앙상가",
+      "notes": "기본전기료 4,540원 및 세대 68kWh 8,740원이 공급가액 13,280원에 포함된 것으로 보이나 세부 합산은 표기와 정확히 일치하지 않아 참고용으로만 기재함(4540+8740=13280 일치)",
+      "field_confidence": {
+        "billing_period": 0.95,
+        "supply_amount": 0.95,
+        "vat_amount": 0.95,
+        "current_period_charge": 0.95,
+        "due_total_amount": 0.95,
+        "overdue_total_amount": 0.9,
+        "late_fee": 0.85,
+        "unpaid_amount": 0.85,
+        "unpaid_late_fee": 0.85
+      }
+    }
+  ]
+}

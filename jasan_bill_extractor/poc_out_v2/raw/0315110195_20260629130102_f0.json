@@ -1,0 +1,30 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": 29000,
+      "vat_amount": null,
+      "due_total_amount": 58150,
+      "current_period_charge": 29000,
+      "unpaid_amount": 29000,
+      "unpaid_late_fee": 150,
+      "late_fee": null,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "billing_period": "202605",
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "창현청구 999동 102호",
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "due_total_amount": 0.95,
+        "current_period_charge": 0.9,
+        "unpaid_amount": 0.9,
+        "unpaid_late_fee": 0.85,
+        "billing_period": 0.9
+      },
+      "notes": "당월부과액(전기료) 29,000 + 미납액 29,000 + 미납연체료 150 = 납기내금액 58,150 확인됨. 부가세 구분 없는 관리비고지서."
+    }
+  ]
+}

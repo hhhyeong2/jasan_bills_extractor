@@ -1,0 +1,49 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 59800,
+      "current_period_charge": 59800,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "late_fee": null,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "billing_period": "202605",
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "진건현대",
+      "region_readings": [
+        {
+          "region": "관리비 부과현황",
+          "current_period_charge": 59800,
+          "due_total_amount": null,
+          "overdue_total_amount": null
+        },
+        {
+          "region": "관리비 납입영수증(입주자용)",
+          "current_period_charge": 59800,
+          "due_total_amount": 59800,
+          "overdue_total_amount": null
+        },
+        {
+          "region": "관리비 납입의뢰서(은행용)",
+          "current_period_charge": null,
+          "due_total_amount": 59800,
+          "overdue_total_amount": null
+        }
+      ],
+      "field_confidence": {
+        "due_total_amount": 0.9,
+        "current_period_charge": 0.85,
+        "unpaid_amount": 0.6,
+        "unpaid_late_fee": 0.6,
+        "billing_period": 0.8
+      },
+      "notes": "관리비 부과현황 표에 세부항목(전기, 수도 등)이 대부분 0 또는 공란으로 표시되어 있고, 손글씨로 'K.T 0.64kW', '160', '75', '299kW' 등이 적혀있으나 어떤 항목에 대응하는지 불명확하여 세부항목은 기록하지 않음. 당월관리비 합계 59,800원만 확인됨."
+    }
+  ]
+}

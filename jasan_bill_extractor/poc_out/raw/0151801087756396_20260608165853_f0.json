@@ -1,0 +1,26 @@
+{
+  "documents": [
+    {
+      "doc_type": "수기영수증",
+      "billing_period": "202605",
+      "supply_amount": 28174,
+      "vat_amount": null,
+      "due_total_amount": 28174,
+      "power_fund_raw": null,
+      "other_fee": null,
+      "unpaid_amount": null,
+      "late_fee": null,
+      "unpaid_late_fee": null,
+      "overdue_total_amount": null,
+      "site_hint_text": "별빛마을8단지 상가번영회",
+      "notes": "표준 세금계산서/관리비고지서 서식이 아닌 팩스 공문 형태의 전기요금 청구서. 부가세 별도 표기 없음(전기료 합산 청구). 청구금액 28,174원 = 기본전기료(균등배분) 12,613원 + 기본전기료(사용량) 3,481원 + 12,080원 항목 합계.",
+      "field_confidence": {
+        "doc_type": 0.6,
+        "billing_period": 0.8,
+        "supply_amount": 0.85,
+        "vat_amount": 0.3,
+        "due_total_amount": 0.85
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "documents": [
+    {
+      "doc_type": "기타",
+      "supply_amount": 51000,
+      "vat_amount": null,
+      "due_total_amount": 51000,
+      "billing_period": "202604",
+      "site_hint_text": "퇴계원 강남2차아파트 관리사무소 (KT 전기사용료 청구)",
+      "notes": "국세청 표준 세금계산서/계산서 서식이 아닌 관리사무소 자체 발행 전기사용료 청구서. 부가세 별도 표기 없음. 당월사용량 340KW, 단가 150원 기준 당월정구금액 51,000원.",
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "due_total_amount": 0.9,
+        "billing_period": 0.8
+      }
+    }
+  ]
+}

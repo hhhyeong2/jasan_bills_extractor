@@ -1,0 +1,32 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 73800,
+      "vat_amount": null,
+      "current_period_charge": 73800,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "due_total_amount": 73800,
+      "overdue_total_amount": null,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": "2026-04-10",
+      "usage_end_date": "2026-05-09",
+      "site_hint_text": "진접금강펜테리움",
+      "notes": "전기에너지 세대전기료 73,800원 단일 항목, 수도/열에너지는 해당 없음(공란). 전기사용기간 공지사항 참조(4.10~5.09).",
+      "field_confidence": {
+        "billing_period": 0.9,
+        "supply_amount": 0.9,
+        "current_period_charge": 0.9,
+        "unpaid_amount": 0.8,
+        "unpaid_late_fee": 0.8,
+        "due_total_amount": 0.95,
+        "usage_start_date": 0.6,
+        "usage_end_date": 0.6
+      }
+    }
+  ]
+}

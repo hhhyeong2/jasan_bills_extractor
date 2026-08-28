@@ -1,0 +1,27 @@
+{
+  "documents": [
+    {
+      "doc_type": "기타",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 28174,
+      "current_period_charge": 28174,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "billing_period": "202605",
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "별빛마을8단지 상가번영회",
+      "notes": "관리비고지서 표준서식이 아닌 상가번영회 발행 전기요금 청구 공문. 12,613원(균등배분)+3,481원(사용량비례)+12,080원 항목 합계 28,174원. 12,080원의 세부 산출근거는 명시되지 않음. 공급가액/부가세 구분 없음.",
+      "field_confidence": {
+        "due_total_amount": 0.85,
+        "current_period_charge": 0.85,
+        "billing_period": 0.6
+      }
+    }
+  ]
+}

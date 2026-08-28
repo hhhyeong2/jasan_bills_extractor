@@ -1,0 +1,50 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": null,
+      "vat_amount": null,
+      "current_period_charge": 80100,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 30,
+      "due_total_amount": 80130,
+      "late_fee": null,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": "2026-04-10",
+      "usage_end_date": "2026-05-09",
+      "site_hint_text": "남양주오남신우아이딜2차 (한국통신 KT유선전기료)",
+      "region_readings": [
+        {
+          "region": "고지서 본문",
+          "current_period_charge": 80100,
+          "due_total_amount": 80130,
+          "overdue_total_amount": null
+        },
+        {
+          "region": "관리비 납입의뢰서",
+          "current_period_charge": 80100,
+          "due_total_amount": 80130,
+          "overdue_total_amount": null
+        },
+        {
+          "region": "관리비 납입영수증",
+          "current_period_charge": 80100,
+          "due_total_amount": 80130,
+          "overdue_total_amount": null
+        }
+      ],
+      "field_confidence": {
+        "current_period_charge": 0.95,
+        "due_total_amount": 0.95,
+        "unpaid_late_fee": 0.9,
+        "unpaid_amount": 0.8,
+        "usage_start_date": 0.7,
+        "usage_end_date": 0.7
+      },
+      "notes": "전기 사용요금 단일 세대 고지서. 미납액은 명시적 라벨은 없으나 미납연체료 30원과 당월부과액 80,100원의 합이 납기내금액 80,130원과 일치하여 미납액은 0으로 판단."
+    }
+  ]
+}

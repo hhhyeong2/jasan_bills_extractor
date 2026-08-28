@@ -1,0 +1,28 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 64250,
+      "vat_amount": null,
+      "current_period_charge": 64250,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "due_total_amount": 64250,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "구리인창2차성원",
+      "notes": "전기 에너지 항목만 부과됨(열에너지 없음). 전력량료 60,652 + 기후환경 2,313 + 연료비조정 1,285 = 64,250. 미납액/미납연체료 항목은 공란으로 표기되어 0으로 추정되나 명시적 숫자 없어 null 처리.",
+      "field_confidence": {
+        "supply_amount": 0.85,
+        "current_period_charge": 0.95,
+        "due_total_amount": 0.95,
+        "billing_period": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": 6620,
+      "vat_amount": null,
+      "due_total_amount": 51060,
+      "overdue_total_amount": 52080,
+      "current_period_charge": 51060,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": 1020,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "billing_period": "202606",
+      "site_hint_text": "은빛마을6단지 부영1상가",
+      "notes": "당월부과액에 인건비24680+유지비610+공동전기료6620+전기기본요금10348+공동수도료8800 등 세부항목 합산 구성. 공급가액 필드에는 공동전기료만 참고로 기재, 세부항목 분해는 하지 않음. 미납액/미납연체료 인쇄값 없음(공란).",
+      "field_confidence": {
+        "current_period_charge": 0.95,
+        "due_total_amount": 0.95,
+        "overdue_total_amount": 0.9,
+        "late_fee": 0.9,
+        "supply_amount": 0.4
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202604",
+      "supply_amount": 29000,
+      "vat_amount": null,
+      "due_total_amount": 57070,
+      "overdue_total_amount": null,
+      "unpaid_amount": 28000,
+      "unpaid_late_fee": 70,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "site_hint_text": "창현청구 999동 102호",
+      "notes": "당월부과액 29,000(전기료)에 미납액 28,000, 미납연체료 70이 더해져 납기내금액 57,070으로 계산됨. 부가세 항목 없음(관리비고지서 성격상 전기료만 별도 표기).",
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "due_total_amount": 0.95,
+        "unpaid_amount": 0.9,
+        "unpaid_late_fee": 0.9,
+        "vat_amount": 0.5
+      }
+    }
+  ]
+}

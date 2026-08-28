@@ -1,0 +1,23 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 10270972,
+      "current_period_charge": 5464567,
+      "unpaid_amount": 4577529,
+      "unpaid_late_fee": 228876,
+      "late_fee": null,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": "2026-06-01",
+      "usage_end_date": "2026-06-30",
+      "billing_period": "202606",
+      "site_hint_text": "백마5단지 쌍용 한성상가 (전체 합계)",
+      "notes": "이 표는 상가 전체 세대 목록의 합계 행으로, 여러 호실의 개별 청구서가 하나의 표로 합쳐져 있음. 개별 호실별 청구액은 표 내 각 행 참조 필요. 합계행 기준으로 대표값을 기록함. 부가세/공급가액 항목 없음(관리비 고지서 형식)",
+      "region_readings": []
+    }
+  ]
+}

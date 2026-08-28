@@ -1,0 +1,54 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202606",
+      "supply_amount": 14610,
+      "vat_amount": 1460,
+      "current_period_charge": 16070,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "due_total_amount": 16070,
+      "late_fee": null,
+      "overdue_total_amount": 16070,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "문산중앙상가 KT 16강북네트",
+      "region_readings": [
+        {
+          "region": "관리비 명세서",
+          "current_period_charge": 16070,
+          "due_total_amount": 16070,
+          "overdue_total_amount": 16070
+        },
+        {
+          "region": "관리비 납입통지서",
+          "current_period_charge": 16070,
+          "due_total_amount": 16070,
+          "overdue_total_amount": 16070
+        },
+        {
+          "region": "관리비 수납의뢰서",
+          "due_total_amount": 16070,
+          "overdue_total_amount": 16070
+        },
+        {
+          "region": "관리비 납입영수증",
+          "current_period_charge": 16070,
+          "due_total_amount": 16070,
+          "overdue_total_amount": 16070
+        }
+      ],
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "vat_amount": 0.9,
+        "current_period_charge": 0.95,
+        "due_total_amount": 0.95,
+        "overdue_total_amount": 0.9
+      },
+      "notes": "전기 사용량 79kWh, 기본전기료 4,540원과 전기사용요금 10,070원 합산 후 부가세 포함하여 당월부과액계 16,070원 산출. 미납액/미납연체료는 공란."
+    }
+  ]
+}

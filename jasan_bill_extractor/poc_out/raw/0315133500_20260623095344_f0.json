@@ -1,0 +1,25 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 59800,
+      "overdue_total_amount": null,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "power_fund_raw": null,
+      "other_fee": null,
+      "site_hint_text": "진건현대",
+      "field_confidence": {
+        "due_total_amount": 0.9,
+        "billing_period": 0.85,
+        "supply_amount": 0.2,
+        "vat_amount": 0.1
+      },
+      "notes": "임대전기료 항목만 59,800원으로 기재되어 있고 전기 사용량은 0KWh로 표시됨. 전기 공급가액/부가세 별도 구분 없음. 손글씨로 '① 64kw ② 160 ③+75 = 299kw' 메모가 있으나 의미 불명확하여 반영하지 않음."
+    }
+  ]
+}

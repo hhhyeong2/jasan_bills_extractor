@@ -1,0 +1,28 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 10270972,
+      "current_period_charge": 5464567,
+      "unpaid_amount": 4577529,
+      "unpaid_late_fee": 228876,
+      "late_fee": null,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "site_hint_text": "백마5단지 쌍용 한성상가 전체 합계",
+      "billing_period": "202606",
+      "usage_start_date": "2026-06-01",
+      "usage_end_date": "2026-06-30",
+      "field_confidence": {
+        "current_period_charge": 0.85,
+        "unpaid_amount": 0.8,
+        "unpaid_late_fee": 0.7,
+        "due_total_amount": 0.85
+      },
+      "notes": "표 최하단 '합계' 행 기준으로 전체 상가 합산 값 추출. 개별 호실별 청구서는 다수이나 문서 자체는 전체 관리비 청구서 1건으로 처리. 검산: 5,464,567+4,577,529+228,876=10,270,972 일치"
+    }
+  ]
+}

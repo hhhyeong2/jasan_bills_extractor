@@ -1,0 +1,44 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 81220,
+      "vat_amount": null,
+      "current_period_charge": 81220,
+      "unpaid_amount": 50220,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "due_total_amount": 131440,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "래미안남가좌2차",
+      "region_readings": [
+        {
+          "region": "관리비 납입의뢰서(은행용)",
+          "current_period_charge": 81220,
+          "due_total_amount": 131440,
+          "overdue_total_amount": null
+        },
+        {
+          "region": "관리비 납입영수증(입주자용)",
+          "current_period_charge": 81220,
+          "due_total_amount": 131440,
+          "overdue_total_amount": null
+        }
+      ],
+      "field_confidence": {
+        "supply_amount": 0.85,
+        "vat_amount": 0.5,
+        "current_period_charge": 0.9,
+        "unpaid_amount": 0.9,
+        "due_total_amount": 0.95,
+        "billing_period": 0.9
+      },
+      "notes": "당월부과액=전기에너지 81,220원(공동전기료 항목만 표기됨), 미납연체료는 0 또는 미기재로 판단되어 null 처리. 81,220+50,220=131,440으로 산식 일치."
+    }
+  ]
+}

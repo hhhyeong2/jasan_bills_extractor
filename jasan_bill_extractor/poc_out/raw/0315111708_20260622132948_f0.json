@@ -1,0 +1,26 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 76750,
+      "vat_amount": null,
+      "due_total_amount": 76750,
+      "overdue_total_amount": null,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "late_fee": null,
+      "power_fund_raw": null,
+      "other_fee": null,
+      "site_hint_text": "한화꿈에그린아파트 / 한국통신",
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "due_total_amount": 0.95,
+        "billing_period": 0.9,
+        "unpaid_amount": 0.8,
+        "unpaid_late_fee": 0.8
+      },
+      "notes": "관리비 항목 중 전기에너지(전기요금)만 청구되며 부가세 별도 표기 없음. 당월부과액/납기내금액 모두 76,750원으로 3개 구역(본문, 납입의뢰서, 납입영수증) 일치."
+    }
+  ]
+}

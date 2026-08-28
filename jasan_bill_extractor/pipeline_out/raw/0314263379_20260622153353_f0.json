@@ -1,0 +1,55 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202606",
+      "supply_amount": 10200,
+      "vat_amount": 1020,
+      "current_period_charge": 11500,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "due_total_amount": 11500,
+      "overdue_total_amount": 12080,
+      "late_fee": 580,
+      "other_fee": 280,
+      "power_fund_raw": 275,
+      "usage_start_date": null,
+      "usage_end_date": "2026-06-22",
+      "site_hint_text": "생연프라자",
+      "region_readings": [
+        {
+          "region": "고지서 본문",
+          "current_period_charge": 11500,
+          "due_total_amount": 11500,
+          "overdue_total_amount": 12080
+        },
+        {
+          "region": "관리비 납입통지서",
+          "due_total_amount": 11500,
+          "overdue_total_amount": 12080
+        },
+        {
+          "region": "관리비 수납의뢰서",
+          "due_total_amount": 11500,
+          "overdue_total_amount": 12080
+        },
+        {
+          "region": "관리비 납입영수증",
+          "due_total_amount": 11500,
+          "overdue_total_amount": 12080
+        }
+      ],
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "vat_amount": 0.9,
+        "current_period_charge": 0.95,
+        "due_total_amount": 0.95,
+        "overdue_total_amount": 0.9,
+        "late_fee": 0.9,
+        "other_fee": 0.85,
+        "power_fund_raw": 0.8
+      },
+      "notes": "당월부과액계(11,500)는 공급가액(10,200)+세액(1,020)+기타세합계(280)로 구성됨. 전력기금 275는 납입영수증 구역에 별도 표기됨. 미납액/미납연체료는 0으로 판단(빈칸)."
+    }
+  ]
+}

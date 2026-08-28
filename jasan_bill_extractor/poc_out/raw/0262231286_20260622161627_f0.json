@@ -1,0 +1,24 @@
+{
+  "documents": [
+    {
+      "doc_type": "수기영수증",
+      "billing_period": "202605",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 22050,
+      "unpaid_amount": 0,
+      "power_fund_raw": null,
+      "other_fee": null,
+      "late_fee": null,
+      "unpaid_late_fee": null,
+      "overdue_total_amount": null,
+      "site_hint_text": "용현금융아파트 관리사무소 (KT 전기사용량)",
+      "field_confidence": {
+        "due_total_amount": 0.7,
+        "unpaid_amount": 0.6,
+        "billing_period": 0.6
+      },
+      "notes": "국세청 표준 세금계산서/관리비고지서 서식이 아니라 수기 형태로 작성된 전기사용량 안내문. 공급가액/부가세 구분 없음. 사용량(147KW*150)과 금액(22,050원)만 명시됨. 문서 발행일은 2026.06.22이나 사용기간은 2026.04.16~05.15로 청구년월은 202605로 추정."
+    }
+  ]
+}

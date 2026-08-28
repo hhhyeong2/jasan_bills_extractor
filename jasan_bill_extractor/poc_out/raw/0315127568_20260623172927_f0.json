@@ -1,0 +1,26 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 80100,
+      "vat_amount": null,
+      "due_total_amount": 80130,
+      "overdue_total_amount": null,
+      "unpaid_amount": 30,
+      "unpaid_late_fee": null,
+      "late_fee": 30,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "site_hint_text": "남양주오남신우아이딜2차 관리사무소 (한국통신 KT유선전기료)",
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "vat_amount": 0.3,
+        "due_total_amount": 0.95,
+        "unpaid_amount": 0.7,
+        "late_fee": 0.7
+      },
+      "notes": "당월부과액 80,100원, 미납액 30원(연체료성 미납), 납기내금액 80,130원으로 표기됨. 부가세 항목은 별도 표기 없음."
+    }
+  ]
+}

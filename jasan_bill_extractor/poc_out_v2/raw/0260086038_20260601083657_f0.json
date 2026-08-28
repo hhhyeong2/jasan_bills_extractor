@@ -1,0 +1,12 @@
+{
+  "documents": [
+    {
+      "doc_type": "기타",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": null,
+      "field_confidence": {},
+      "notes": "이 문서는 자동차 등록원부(갑) 등본으로 청구서(세금계산서/계산서/관리비고지서/수기영수증)가 아님. 금액 관련 정보 없음."
+    }
+  ]
+}

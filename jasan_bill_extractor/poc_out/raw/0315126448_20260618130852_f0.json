@@ -1,0 +1,25 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 58270,
+      "vat_amount": null,
+      "due_total_amount": 58270,
+      "overdue_total_amount": null,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "site_hint_text": "구리인창6단지아파트",
+      "field_confidence": {
+        "supply_amount": 0.7,
+        "vat_amount": 0.3,
+        "due_total_amount": 0.9,
+        "billing_period": 0.8
+      },
+      "notes": "전기 사용량 0kWh로 표기되어 있으나 청구금액(58,270원)은 발생함. 항목별 세부내역(일반관리비, 청소비 등)은 저해상도로 판독 불가하여 합계만 기록. 부가세 별도 표기 확인 안됨."
+    }
+  ]
+}

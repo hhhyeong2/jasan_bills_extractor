@@ -1,0 +1,31 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 73146,
+      "current_period_charge": 73146,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "late_fee": 3657,
+      "overdue_total_amount": 76804,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "billing_period": "202606",
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "쌍용한성상가 118 한성부동산",
+      "notes": "당월관리비/전월미수금/미수연체금 항목만 표기되어 있고 세부 항목(전기료 등) 분해 불가. 납기내금액=당월관리비(미납액,미납연체료 0). 연체료 3657은 납기후 관련 연체표로 late_fee에 반영, 납기후금액 76804.",
+      "field_confidence": {
+        "current_period_charge": 0.9,
+        "due_total_amount": 0.9,
+        "late_fee": 0.85,
+        "overdue_total_amount": 0.85,
+        "unpaid_amount": 0.8,
+        "unpaid_late_fee": 0.8,
+        "billing_period": 0.9
+      }
+    }
+  ]
+}

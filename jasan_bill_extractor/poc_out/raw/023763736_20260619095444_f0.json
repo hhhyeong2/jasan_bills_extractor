@@ -1,0 +1,25 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 81220,
+      "vat_amount": null,
+      "due_total_amount": 131440,
+      "overdue_total_amount": null,
+      "unpaid_amount": 50220,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "site_hint_text": "래미안남가좌2차",
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "due_total_amount": 0.95,
+        "unpaid_amount": 0.9,
+        "billing_period": 0.9
+      },
+      "notes": "전기요금 81,220원(전력량요금 75,368+기후환경 3,762+연료비조정 2,090), 미납연체료는 표기상 공란으로 확인되어 null 처리. 부가세 별도 표기 없음."
+    }
+  ]
+}

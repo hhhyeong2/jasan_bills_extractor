@@ -1,0 +1,31 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 595790,
+      "current_period_charge": 592950,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 2840,
+      "late_fee": null,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "billing_period": "202605",
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "고양삼송마을18단지",
+      "field_confidence": {
+        "supply_amount": 0.0,
+        "vat_amount": 0.0,
+        "due_total_amount": 0.95,
+        "current_period_charge": 0.95,
+        "unpaid_amount": 0.7,
+        "unpaid_late_fee": 0.9,
+        "billing_period": 0.9
+      },
+      "notes": "당월부과액(592,950)+미납연체료(2,840)=납기내금액(595,790)로 검증됨. 미납액 표기란은 비어있어 0으로 추정. 전기 사용기간(월별 지침 기준)은 명시적 시작/종료일 인쇄 없어 null 처리."
+    }
+  ]
+}

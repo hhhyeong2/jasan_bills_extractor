@@ -1,0 +1,32 @@
+{
+  "documents": [
+    {
+      "doc_type": "기타",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 22050,
+      "current_period_charge": 22050,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "overdue_total_amount": null,
+      "usage_start_date": "2026-04-16",
+      "usage_end_date": "2026-05-15",
+      "billing_period": "202605",
+      "site_hint_text": "KT / 용현금용아파트 관리사무소",
+      "notes": "KT 전용 전기사용량 고지서(세금계산서/관리비고지서 표준 서식 아님). 사용량 147KW*150원, 당월금액 22,050원, 전월미납 0원, 합계 22,050원. 부가세/공급가액 구분 없음.",
+      "field_confidence": {
+        "supply_amount": 0.0,
+        "vat_amount": 0.0,
+        "due_total_amount": 0.9,
+        "current_period_charge": 0.9,
+        "unpaid_amount": 0.9,
+        "usage_start_date": 0.8,
+        "usage_end_date": 0.8,
+        "billing_period": 0.6
+      }
+    }
+  ]
+}

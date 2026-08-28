@@ -1,0 +1,50 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": null,
+      "vat_amount": null,
+      "current_period_charge": 592950,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 2840,
+      "due_total_amount": 595790,
+      "overdue_total_amount": null,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "고양삼송마을18단지",
+      "region_readings": [
+        {
+          "region": "고지서 본문",
+          "current_period_charge": 592950,
+          "due_total_amount": null,
+          "overdue_total_amount": null
+        },
+        {
+          "region": "관리비 납입의뢰서",
+          "current_period_charge": 592950,
+          "due_total_amount": 595790,
+          "overdue_total_amount": null
+        },
+        {
+          "region": "관리비 납입영수증",
+          "current_period_charge": 592950,
+          "due_total_amount": 595790,
+          "overdue_total_amount": null
+        }
+      ],
+      "field_confidence": {
+        "supply_amount": 0.0,
+        "vat_amount": 0.0,
+        "current_period_charge": 0.95,
+        "unpaid_amount": 0.7,
+        "unpaid_late_fee": 0.9,
+        "due_total_amount": 0.95
+      },
+      "notes": "전기에너지 항목만 표시되어 있으며 세부항목(전력량료 561,590 + 기후환경 20,160 + 연료비조정 11,200 = 592,950)의 합이 당월부과액과 일치함. 미납액은 명시적 숫자가 없으나 빈칸이므로 0으로 추정."
+    }
+  ]
+}

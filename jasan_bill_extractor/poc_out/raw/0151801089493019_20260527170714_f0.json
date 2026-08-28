@@ -1,0 +1,25 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 13280,
+      "vat_amount": 1330,
+      "due_total_amount": 14610,
+      "overdue_total_amount": 14610,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "site_hint_text": "문산중앙상가 2동 902호 KT 16강북네트",
+      "field_confidence": {
+        "supply_amount": 0.95,
+        "vat_amount": 0.95,
+        "due_total_amount": 0.95,
+        "billing_period": 0.9
+      },
+      "notes": "여러 구역(관리비 명세서, 납입통지서, 수납의뢰서, 납입영수증)의 값이 모두 일치함(공급가액 13,280 / 부가세 1,330 / 납기내금액 14,610). 전기 사용요금 8,740, 기본전기료 4,540 별도 표기됨."
+    }
+  ]
+}

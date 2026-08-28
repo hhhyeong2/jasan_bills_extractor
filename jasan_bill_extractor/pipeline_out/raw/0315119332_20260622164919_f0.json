@@ -1,0 +1,58 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202606",
+      "supply_amount": 26400,
+      "vat_amount": 2640,
+      "current_period_charge": 30020,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "due_total_amount": 30020,
+      "late_fee": 600,
+      "overdue_total_amount": 30620,
+      "other_fee": 980,
+      "power_fund_raw": 980,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "다남프라자",
+      "region_readings": [
+        {
+          "region": "관리비 명세서",
+          "current_period_charge": 30020,
+          "due_total_amount": 30020,
+          "overdue_total_amount": 30620
+        },
+        {
+          "region": "관리비 납입통지서",
+          "current_period_charge": 30020,
+          "due_total_amount": 30020,
+          "overdue_total_amount": 30620
+        },
+        {
+          "region": "관리비 수납의뢰서",
+          "current_period_charge": null,
+          "due_total_amount": 30020,
+          "overdue_total_amount": 30620
+        },
+        {
+          "region": "관리비 납입영수증",
+          "current_period_charge": 30020,
+          "due_total_amount": 30020,
+          "overdue_total_amount": 30620
+        }
+      ],
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "vat_amount": 0.9,
+        "current_period_charge": 0.95,
+        "due_total_amount": 0.95,
+        "late_fee": 0.9,
+        "overdue_total_amount": 0.9,
+        "other_fee": 0.85,
+        "power_fund_raw": 0.85
+      },
+      "notes": "전기 사용요금 26,400 + 부가세 2,640 + 전력기금 980 = 당월부과액계 30,020. 미납액/미납연체료는 빈칸으로 0으로 처리. 사용기간 정보는 인쇄되어 있지 않음."
+    }
+  ]
+}

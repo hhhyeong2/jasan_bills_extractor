@@ -1,0 +1,31 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 12600,
+      "current_period_charge": 12600,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "billing_period": "202606",
+      "usage_start_date": "2026-05-23",
+      "usage_end_date": "2026-06-22",
+      "site_hint_text": "경신아파트관리사무소 (MDF실 사용 전기료)",
+      "region_readings": [],
+      "field_confidence": {
+        "supply_amount": 0.0,
+        "vat_amount": 0.0,
+        "due_total_amount": 0.9,
+        "current_period_charge": 0.9,
+        "usage_start_date": 0.9,
+        "usage_end_date": 0.9
+      },
+      "notes": "MDF실(광통신장비) 전기 사용금액 청구서로, 세금계산서 형식이 아니며 공급가액/부가세 구분 없음. 계(합계) 금액 12,600원을 당월부과액 및 납기내금액으로 처리함."
+    }
+  ]
+}

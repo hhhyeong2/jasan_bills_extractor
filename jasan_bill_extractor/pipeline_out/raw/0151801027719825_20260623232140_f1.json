@@ -1,0 +1,48 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202606",
+      "supply_amount": null,
+      "vat_amount": null,
+      "current_period_charge": 51060,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "due_total_amount": 51060,
+      "late_fee": 1020,
+      "overdue_total_amount": 52080,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "은빛마을6단지 부영1상가",
+      "region_readings": [
+        {
+          "region": "관리비 납입의뢰서(은행용)",
+          "current_period_charge": 51060,
+          "due_total_amount": 51060,
+          "overdue_total_amount": 52080
+        },
+        {
+          "region": "관리비 납입영수증(입주자용)",
+          "current_period_charge": 51060,
+          "due_total_amount": 51060,
+          "overdue_total_amount": 52080
+        },
+        {
+          "region": "고지서 상단",
+          "due_total_amount": 51060
+        }
+      ],
+      "field_confidence": {
+        "current_period_charge": 0.9,
+        "due_total_amount": 0.95,
+        "late_fee": 0.85,
+        "overdue_total_amount": 0.9,
+        "unpaid_amount": 0.6,
+        "unpaid_late_fee": 0.6
+      },
+      "notes": "미납액/미납연체료 칸은 공란으로 보여 0으로 처리함. 세부항목(인건비, 유지비, 공동전기료, 전기기본요금, 공동수도료 등)은 당월부과액에 합산되어 있어 개별 분해하지 않음."
+    }
+  ]
+}

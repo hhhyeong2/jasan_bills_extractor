@@ -1,0 +1,29 @@
+{
+  "documents": [
+    {
+      "doc_type": "기타",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 51060,
+      "current_period_charge": 51060,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "overdue_total_amount": null,
+      "power_fund_raw": null,
+      "other_fee": null,
+      "billing_period": "202606",
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "화정은빛6단지 부영1상가 (B106호, KT 점포)",
+      "field_confidence": {
+        "supply_amount": 0.0,
+        "vat_amount": 0.0,
+        "due_total_amount": 0.9,
+        "current_period_charge": 0.85,
+        "billing_period": 0.8
+      },
+      "notes": "전기사용료 청구 공문 형식. 세금계산서/관리비고지서 표준 서식이 아니며 전기사용량(255.3KW)×단가(200)=51,060원으로 계산된 청구 합계만 존재. 공급가액/부가세 구분 없음."
+    }
+  ]
+}

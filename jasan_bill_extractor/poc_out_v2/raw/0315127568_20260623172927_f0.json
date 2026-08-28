@@ -1,0 +1,30 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": null,
+      "vat_amount": null,
+      "current_period_charge": 80100,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 30,
+      "due_total_amount": 80130,
+      "late_fee": null,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": "2026-04-10",
+      "usage_end_date": "2026-05-09",
+      "site_hint_text": "남양주오남신우아이딜2차 (한국통신 KT유선전기료)",
+      "notes": "전기 사용요금(전력량료 등 76,362 + 기후환경 2,403 + 연료비조정 1,335 = 80,100)이 당월부과액으로 표기됨. 부가세/공급가액 분리 없음. 미납연체료 30원 발생.",
+      "field_confidence": {
+        "current_period_charge": 0.95,
+        "unpaid_amount": 0.9,
+        "unpaid_late_fee": 0.9,
+        "due_total_amount": 0.95,
+        "usage_start_date": 0.8,
+        "usage_end_date": 0.8
+      }
+    }
+  ]
+}

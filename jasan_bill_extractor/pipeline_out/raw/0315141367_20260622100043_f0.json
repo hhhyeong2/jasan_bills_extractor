@@ -1,0 +1,49 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": null,
+      "vat_amount": null,
+      "current_period_charge": 73800,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "due_total_amount": 73800,
+      "overdue_total_amount": null,
+      "billing_period": "202605",
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "진접금강펜테리움",
+      "region_readings": [
+        {
+          "region": "고지서 본문",
+          "current_period_charge": 73800,
+          "due_total_amount": 73800,
+          "overdue_total_amount": null
+        },
+        {
+          "region": "관리비 납입의뢰서(은행용)",
+          "current_period_charge": 73800,
+          "due_total_amount": 73800,
+          "overdue_total_amount": null
+        },
+        {
+          "region": "관리비 납입영수증(입주자용)",
+          "current_period_charge": 73800,
+          "due_total_amount": 73800,
+          "overdue_total_amount": null
+        }
+      ],
+      "field_confidence": {
+        "current_period_charge": 0.95,
+        "due_total_amount": 0.95,
+        "billing_period": 0.9,
+        "unpaid_amount": 0.7,
+        "unpaid_late_fee": 0.7
+      },
+      "notes": "전기사용기간(4.10-5.09)은 명세서에 별도 표기되어 usage_start/end_date는 사용월과 달라 채우지 않음. 관리비 명세서는 전기에너지 항목만 존재(73,800원), 열/수도 항목 금액 없음."
+    }
+  ]
+}

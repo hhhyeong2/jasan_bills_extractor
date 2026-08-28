@@ -1,0 +1,31 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 51480,
+      "vat_amount": null,
+      "current_period_charge": 51480,
+      "unpaid_amount": 49230,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "due_total_amount": 100710,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": "2026-04-01",
+      "usage_end_date": "2026-04-30",
+      "site_hint_text": "덕소한솔강변",
+      "notes": "당월부과액(세대전기료) 51,480 + 미납액 49,230 = 100,710(납기내금액) 일치 확인. 미납연체료는 공란(0으로 추정되나 인쇄값 없어 null 처리)",
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "current_period_charge": 0.9,
+        "unpaid_amount": 0.9,
+        "due_total_amount": 0.95,
+        "billing_period": 0.9,
+        "usage_start_date": 0.8,
+        "usage_end_date": 0.8
+      }
+    }
+  ]
+}

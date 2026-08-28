@@ -1,0 +1,26 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 5550,
+      "vat_amount": null,
+      "due_total_amount": 5550,
+      "overdue_total_amount": null,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "late_fee": null,
+      "power_fund_raw": null,
+      "other_fee": null,
+      "site_hint_text": "삼익파크힐스",
+      "notes": "전기료 고지서로 부가세 별도 표기 없음. 본문/납입의뢰서/납입영수증 3구역 금액(5,550) 모두 일치하여 신뢰도 높음. 전력량료 5,130+기후환경 270+연료비조정 150=5,550으로 구성 확인됨.",
+      "field_confidence": {
+        "supply_amount": 0.95,
+        "vat_amount": 0.5,
+        "due_total_amount": 0.97,
+        "unpaid_amount": 0.8,
+        "unpaid_late_fee": 0.8
+      }
+    }
+  ]
+}

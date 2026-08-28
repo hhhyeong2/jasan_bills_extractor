@@ -1,0 +1,50 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 58270,
+      "current_period_charge": 58270,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "overdue_total_amount": null,
+      "power_fund_raw": null,
+      "other_fee": null,
+      "usage_start_date": "2026-04-08",
+      "usage_end_date": "2026-05-07",
+      "site_hint_text": "구리인창6단지아파트",
+      "region_readings": [
+        {
+          "region": "고지서 본문",
+          "current_period_charge": 58270,
+          "due_total_amount": 58270,
+          "overdue_total_amount": null
+        },
+        {
+          "region": "관리비 납입의뢰서",
+          "current_period_charge": null,
+          "due_total_amount": 58270,
+          "overdue_total_amount": null
+        },
+        {
+          "region": "관리비 납입영수증",
+          "current_period_charge": null,
+          "due_total_amount": 58270,
+          "overdue_total_amount": null
+        }
+      ],
+      "field_confidence": {
+        "supply_amount": 0.0,
+        "vat_amount": 0.0,
+        "due_total_amount": 0.9,
+        "current_period_charge": 0.9,
+        "usage_start_date": 0.6,
+        "usage_end_date": 0.6
+      },
+      "notes": "전기/수도 사용량이 0kWh, 0t로 표기되어 있어 세부항목 산정 불가. 당월부과액계와 납기내금액이 동일(58,270원)하며 미납액/연체료 없음. 전기 사용기간은 공지사항의 산출기간(전기료) 값을 사용."
+    }
+  ]
+}

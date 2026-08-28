@@ -1,0 +1,39 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202606",
+      "supply_amount": null,
+      "vat_amount": null,
+      "current_period_charge": 277200,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "due_total_amount": 277200,
+      "late_fee": 13860,
+      "overdue_total_amount": 291060,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "쌍용한성상가 B107 KT",
+      "region_readings": [
+        {
+          "region": "고지서 본문",
+          "current_period_charge": 277200,
+          "due_total_amount": 277200,
+          "overdue_total_amount": 291060
+        }
+      ],
+      "notes": "당월관리비는 세부항목 분해 없이 합계로 한 줄로 인쇄됨. 전월미수금/미수연체금 0.",
+      "field_confidence": {
+        "billing_period": 0.95,
+        "current_period_charge": 0.95,
+        "due_total_amount": 0.95,
+        "late_fee": 0.95,
+        "overdue_total_amount": 0.95,
+        "unpaid_amount": 0.9,
+        "unpaid_late_fee": 0.9
+      }
+    }
+  ]
+}

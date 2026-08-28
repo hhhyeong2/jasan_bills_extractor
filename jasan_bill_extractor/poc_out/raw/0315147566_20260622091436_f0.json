@@ -1,0 +1,26 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 80000,
+      "vat_amount": null,
+      "due_total_amount": 80030,
+      "overdue_total_amount": null,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 30,
+      "late_fee": null,
+      "power_fund_raw": null,
+      "other_fee": null,
+      "site_hint_text": "오남리신우아이딜1차",
+      "field_confidence": {
+        "supply_amount": 0.85,
+        "due_total_amount": 0.9,
+        "unpaid_amount": 0.8,
+        "unpaid_late_fee": 0.8,
+        "billing_period": 0.7
+      },
+      "notes": "전기 사용요금(공급가액)은 당월부과현황의 전기 80,000원으로 기재. 관리비 산출기간은 2026.05.01~05.31이나 표지에는 '2026년 05월 관리비'로 표기됨. 부가세 항목은 표기 없음. 미납연체료는 30원으로 표기됨(미납연체료 30 확인)."
+    }
+  ]
+}

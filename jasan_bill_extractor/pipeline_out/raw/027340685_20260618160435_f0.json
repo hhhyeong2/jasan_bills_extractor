@@ -1,0 +1,57 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202605",
+      "supply_amount": 68545,
+      "vat_amount": 6855,
+      "current_period_charge": 77430,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "due_total_amount": 77430,
+      "late_fee": 1550,
+      "overdue_total_amount": 78980,
+      "other_fee": null,
+      "power_fund_raw": 2030,
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "세종로대우빌딩",
+      "region_readings": [
+        {
+          "region": "고지서 본문",
+          "current_period_charge": 77430,
+          "due_total_amount": 77430,
+          "overdue_total_amount": 78980
+        },
+        {
+          "region": "관리비 납입통지서",
+          "current_period_charge": 77430,
+          "due_total_amount": 77430,
+          "overdue_total_amount": 78980
+        },
+        {
+          "region": "관리비 수납의뢰서",
+          "current_period_charge": null,
+          "due_total_amount": 77430,
+          "overdue_total_amount": 78980
+        },
+        {
+          "region": "관리비 납입영수증",
+          "current_period_charge": 77430,
+          "due_total_amount": 77430,
+          "overdue_total_amount": 78980
+        }
+      ],
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "vat_amount": 0.9,
+        "current_period_charge": 0.95,
+        "due_total_amount": 0.95,
+        "late_fee": 0.9,
+        "overdue_total_amount": 0.9,
+        "power_fund_raw": 0.85
+      },
+      "notes": "과세합(75,400)=공급가액+부가세, 비과세합(2,030)=세대전력기금(power_fund_raw). 당월부과액계=과세합+비과세합=77,430으로 정합. 전기 사용량 433Kwh 표기 있으나 사용기간 명시 없음."
+    }
+  ]
+}

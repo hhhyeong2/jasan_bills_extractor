@@ -1,0 +1,31 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 58270,
+      "current_period_charge": 58270,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "overdue_total_amount": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "billing_period": "202605",
+      "usage_start_date": "2026-04-08",
+      "usage_end_date": "2026-05-07",
+      "site_hint_text": "구리인창6단지아파트",
+      "field_confidence": {
+        "current_period_charge": 0.9,
+        "due_total_amount": 0.9,
+        "billing_period": 0.85,
+        "usage_start_date": 0.7,
+        "usage_end_date": 0.7,
+        "unpaid_amount": 0.3,
+        "unpaid_late_fee": 0.3
+      },
+      "notes": "당월부과액계와 납기내금액이 동일하게 58,270원으로 표기됨. 미납액/미납연체료는 판독 불가(공란으로 보임)로 null 처리. 전기/수도 사용량 0으로 기재되어 있어 세부 사용요금 항목은 특이값."
+    }
+  ]
+}

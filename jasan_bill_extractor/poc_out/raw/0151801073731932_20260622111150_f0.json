@@ -1,0 +1,24 @@
+{
+  "documents": [
+    {
+      "doc_type": "기타",
+      "supply_amount": 12600,
+      "vat_amount": null,
+      "due_total_amount": 12600,
+      "billing_period": "202606",
+      "power_fund_raw": null,
+      "other_fee": null,
+      "late_fee": null,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "overdue_total_amount": null,
+      "site_hint_text": "경신아파트관리사무소 - MDF실 사용 전기료 청구건(광통신장비 전기사용금액)",
+      "field_confidence": {
+        "supply_amount": 0.9,
+        "due_total_amount": 0.9,
+        "billing_period": 0.6
+      },
+      "notes": "국세청 표준 세금계산서 서식이 아닌 관리사무소 자체 발행 전기료 청구서(공문 형식)로 부가세 구분 없음. 사용기간은 26.5.23~26.6.22, 납부기한 2026.6.30. 청구년월은 납부기한 기준 202606으로 추정."
+    }
+  ]
+}

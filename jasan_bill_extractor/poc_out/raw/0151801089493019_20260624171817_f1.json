@@ -1,0 +1,25 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202606",
+      "supply_amount": 14610,
+      "vat_amount": 1460,
+      "due_total_amount": 16070,
+      "overdue_total_amount": 16070,
+      "unpaid_amount": null,
+      "unpaid_late_fee": null,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "site_hint_text": "문산중앙상가 2동 902호 KT 16강북네트",
+      "field_confidence": {
+        "supply_amount": 0.95,
+        "vat_amount": 0.95,
+        "due_total_amount": 0.95,
+        "overdue_total_amount": 0.9
+      },
+      "notes": "관리비 명세서/납입통지서/수납의뢰서/납입영수증 각 구역 금액이 모두 일치함(공급가액 14,610 / 부가세 1,460 / 납기내금액 16,070). 미납액 및 미납연체료는 공란으로 0에 해당."
+    }
+  ]
+}

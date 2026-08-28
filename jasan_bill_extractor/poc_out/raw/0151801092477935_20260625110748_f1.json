@@ -1,0 +1,26 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "billing_period": "202606",
+      "supply_amount": null,
+      "vat_amount": null,
+      "due_total_amount": 73146,
+      "overdue_total_amount": 76804,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "late_fee": 3657,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "site_hint_text": "쌍용한성상가 118 한성부동산 (백마5단지 쌍용한성상가)",
+      "field_confidence": {
+        "due_total_amount": 0.95,
+        "overdue_total_amount": 0.9,
+        "late_fee": 0.9,
+        "unpaid_amount": 0.9,
+        "unpaid_late_fee": 0.9
+      },
+      "notes": "관리비 항목이 세부 구분(전기/수도 등) 없이 '당월관리비' 단일 항목으로만 표기되어 supply_amount는 알 수 없음. 부가세 항목 없음."
+    }
+  ]
+}

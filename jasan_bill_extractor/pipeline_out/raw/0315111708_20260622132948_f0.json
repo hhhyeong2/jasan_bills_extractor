@@ -1,0 +1,49 @@
+{
+  "documents": [
+    {
+      "doc_type": "관리비고지서",
+      "supply_amount": null,
+      "vat_amount": null,
+      "current_period_charge": 76750,
+      "unpaid_amount": 0,
+      "unpaid_late_fee": 0,
+      "due_total_amount": 76750,
+      "overdue_total_amount": null,
+      "late_fee": null,
+      "other_fee": null,
+      "power_fund_raw": null,
+      "billing_period": "202605",
+      "usage_start_date": null,
+      "usage_end_date": null,
+      "site_hint_text": "한화꿈에그린아파트 / 한국통신",
+      "region_readings": [
+        {
+          "region": "고지서 본문",
+          "current_period_charge": 76750,
+          "due_total_amount": 76750,
+          "overdue_total_amount": null
+        },
+        {
+          "region": "관리비 납입의뢰서",
+          "current_period_charge": 76750,
+          "due_total_amount": 76750,
+          "overdue_total_amount": null
+        },
+        {
+          "region": "관리비 납입영수증",
+          "current_period_charge": 76750,
+          "due_total_amount": 76750,
+          "overdue_total_amount": null
+        }
+      ],
+      "field_confidence": {
+        "current_period_charge": 0.95,
+        "due_total_amount": 0.95,
+        "unpaid_amount": 0.8,
+        "unpaid_late_fee": 0.8,
+        "billing_period": 0.9
+      },
+      "notes": "전기에너지 항목만 있는 고지서로, 당월부과액과 납기내금액이 동일(76,750원). 미납액/미납연체료는 빈칸으로 0으로 처리."
+    }
+  ]
+}
