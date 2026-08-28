@@ -6,10 +6,16 @@ DesktopApp (spec.md §3, §6 Phase 5): 비개발자용 tkinter 데스크톱 실�
 흐름: API 키 입력(OS 자격증명 저장소에 암호화 저장) -> 고지서 폴더 선택 -> 경기북부
 엑셀양식 파일 선택 -> 출력 폴더 선택 -> 실행 -> 진행률 표시 -> 결과 엑셀/예외 리포트 폴더 열기.
 
-내부적으로 scripts.run_pipeline.run_pipeline() (Phase 2~3: 전처리/추출/검증/매칭/이력)과
-scripts.run_export.run_export() (Phase 4: 엑셀 기입/예외 리포트)를 백그라운드 스레드에서
-순서대로 호출한다. 실제 API 호출이 있으므로(spec.md §1.4 - 비용 발생) 실행 전 파일
-수/예상 비용을 안내하고 확인을 받는다.
+내부적으로 jasan_bill_extractor.pipeline.run_pipeline() (Phase 2~3: 전처리/추출/검증/매칭/이력)과
+jasan_bill_extractor.exporter.run_export() (Phase 4: 엑셀 기입/예외 리포트)를 백그라운드
+스레드에서 순서대로 호출한다. 실제 API 호출이 있으므로(spec.md §1.4 - 비용 발생) 실행 전
+파일 수/예상 비용을 안내하고 확인을 받는다.
+
+중요: pipeline.py/exporter.py는 반드시 jasan_bill_extractor 패키지 정식 모듈(패키지 최상위,
+scripts/ 폴더 아님)에서 import해야 한다. scripts/의 느슨한 스크립트를 sys.path 조작 +
+bare import로 불러오면 PyInstaller가 정적 분석으로 그 임포트를 추적하지 못해 번들에서
+빠지고 "ModuleNotFoundError: No module named 'run_pipeline'"가 난다 (Phase 5 실배포 중
+Windows exe에서 실제로 발생, 아래 방식으로 수정함).
 """
 
 import os
@@ -23,11 +29,10 @@ from tkinter import filedialog, messagebox, ttk
 
 GUI_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = GUI_DIR.parent
-sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 sys.path.insert(0, str(PROJECT_ROOT.parent))
 
-import run_pipeline  # noqa: E402  (jasan_bill_extractor/scripts/run_pipeline.py)
-import run_export  # noqa: E402  (jasan_bill_extractor/scripts/run_export.py)
+import jasan_bill_extractor.pipeline as run_pipeline  # noqa: E402
+import jasan_bill_extractor.exporter as run_export  # noqa: E402
 
 try:
     import keyring
